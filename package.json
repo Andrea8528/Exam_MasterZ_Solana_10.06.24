@@ -1,0 +1,36 @@
+{
+  "name": "exam_masterz_solana_10.06.24",
+  "version": "1.0.0",
+  "description": "Esame Masterz per Solana",
+  "main": "index.js",
+  "scripts": {
+    "createKey": "ts-node ./createKey_or_air.ts",
+    "spl_init": "ts-node ./spl_init.ts",
+    "spl_mint": "ts-node ./spl_mint.ts",
+    "spl_trasf": "ts-node ./spl_trasf.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrea8528/exam_MasterZ_Solana_10.06.24.git"
+  },
+  "author": "Saba Andrea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andrea8528/exam_MasterZ_Solana/issues"
+  },
+  "homepage": "https://github.com/Andrea8528/exam_MasterZ_Solana#readme",
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@metaplex-foundation/umi": "^0.9.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.1",
+    "@metaplex-foundation/umi-uploader-irys": "^0.9.1",
+    "@solana/spl-token": "^0.4.6",
+    "@solana/web3.js": "^1.92.3",
+    "@types/node": "^20.14.2",
+    "bs58": "^5.0.0",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
